@@ -1,1 +1,1 @@
-# mbs-simple-crypto
+# .Net Simple Crypto Package
