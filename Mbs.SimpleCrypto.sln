@@ -11,6 +11,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Unit Tests", "2 - Unit 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mbs.SimpleCrypto.Tests", "tests\Mbs.SimpleCryptoService.Tests\Mbs.SimpleCrypto.Tests.csproj", "{B16E025C-2CAA-4EDC-A6E3-754861D02D95}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Solution Items", "0 - Solution Items", "{306A3CFC-E5E9-4A64-A48C-B72911EB5D93}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		README.md = README.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
