@@ -17,7 +17,7 @@ Or via the Visual Studio package manager.
 
 ## Setup
 
-If you want to use dependency injection, you need register the crypto service with the service collection (generally in _Startup.cs_ file):
+If you want to use dependency injection, you need register the crypto service in the service collection (generally in _Startup.cs_ file):
 
 ```c#
 using Mbs.SimpleCrypto.Services;
