@@ -48,7 +48,7 @@ If you use dependency injection, inject the `ISimpleAesCryptoService` in your cl
 using Mbs.SimpleCrypto.Services;
 using Mbs.SimpleCrypto.Services.Interfaces;
 
-public MyClass {
+public class MyClass {
 
     private readonly ISimpleAesCryptoService _simpleAesCryptoService;
 
@@ -74,7 +74,7 @@ If you use mannualy:
 using Mbs.SimpleCrypto.Services;
 using Mbs.SimpleCrypto.Services.Interfaces;
 
-public MyClass {
+public class MyClass {
 
     public void MyMethod()
     {
