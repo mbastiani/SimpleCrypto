@@ -15,6 +15,7 @@
     <PackageTags>crypto criptografia cryptography</PackageTags>
     <PackageIcon>icon.png</PackageIcon>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Version>1.1.0</Version>
   </PropertyGroup>
 
   <ItemGroup>
