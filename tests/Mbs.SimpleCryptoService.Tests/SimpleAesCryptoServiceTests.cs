@@ -21,8 +21,8 @@ namespace Mbs.SimpleCrypto.Tests
         [Fact]
         public void AES_Encrypt_And_Decrypt_Success()
         {
-            var cryptedContent = _simpleAesCryptoService.AesEncrypt(_contentToBeEncrypted, _privateEncryptionKey);
-            var decryptedContent = _simpleAesCryptoService.AesDecrypt(cryptedContent, _privateEncryptionKey);
+            var encryptedContent = _simpleAesCryptoService.AesEncrypt(_contentToBeEncrypted, _privateEncryptionKey);
+            var decryptedContent = _simpleAesCryptoService.AesDecrypt(encryptedContent, _privateEncryptionKey);
             
             Assert.Equal(_contentToBeEncrypted, decryptedContent);
         }
