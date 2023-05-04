@@ -68,7 +68,7 @@ public class MyClass {
 }
 ```
 
-If you use mannualy:
+If you use manually:
 
 ```c#
 using Mbs.SimpleCrypto.Services;
